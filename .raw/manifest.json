@@ -1,0 +1,23 @@
+{
+  "version": 1,
+  "lastUpdated": "2026-07-05",
+  "ingestedFiles": [],
+  "pendingFiles": [
+    {
+      "path": "raw/文章/",
+      "status": "pending",
+      "addedAt": "2026-07-05"
+    },
+    {
+      "path": "raw/随记/",
+      "status": "pending",
+      "addedAt": "2026-07-05"
+    },
+    {
+      "path": "raw/论文/",
+      "status": "pending",
+      "addedAt": "2026-07-05"
+    }
+  ],
+  "skippedFiles": []
+}

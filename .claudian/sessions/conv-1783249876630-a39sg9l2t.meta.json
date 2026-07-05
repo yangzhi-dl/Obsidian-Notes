@@ -1,0 +1,24 @@
+{
+  "id": "conv-1783249876630-a39sg9l2t",
+  "providerId": "opencode",
+  "title": "List notes in repository",
+  "titleGenerationStatus": "success",
+  "createdAt": 1783249876636,
+  "updatedAt": 1783249889817,
+  "lastResponseAt": 1783249889817,
+  "sessionId": "ses_0ce064442ffe710iKKE1bkdcBJ",
+  "providerState": {
+    "databasePath": "C:\\Users\\Yandel\\AppData\\Roaming\\opencode\\opencode.db"
+  },
+  "currentNote": "关于Obsidian.md",
+  "usage": {
+    "cacheCreationInputTokens": 0,
+    "cacheReadInputTokens": 8320,
+    "contextTokens": 10276,
+    "contextWindow": 128000,
+    "contextWindowIsAuthoritative": true,
+    "inputTokens": 1956,
+    "model": "opencode:deepseek/deepseek-reasoner",
+    "percentage": 8
+  }
+}
