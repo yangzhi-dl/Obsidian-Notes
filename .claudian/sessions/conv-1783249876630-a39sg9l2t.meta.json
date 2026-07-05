@@ -1,24 +1,24 @@
 {
   "id": "conv-1783249876630-a39sg9l2t",
   "providerId": "opencode",
-  "title": "List notes in repository",
+  "title": "Compile Obsidian notes into wiki concept pages",
   "titleGenerationStatus": "success",
   "createdAt": 1783249876636,
-  "updatedAt": 1783249889817,
-  "lastResponseAt": 1783249889817,
-  "sessionId": "ses_0ce064442ffe710iKKE1bkdcBJ",
+  "updatedAt": 1783258703446,
+  "lastResponseAt": 1783258703446,
+  "sessionId": "ses_0cd99012cffemXJwx5hm7NsKK9",
   "providerState": {
     "databasePath": "C:\\Users\\Yandel\\AppData\\Roaming\\opencode\\opencode.db"
   },
-  "currentNote": "关于Obsidian.md",
+  "currentNote": "diary/diary template.md",
   "usage": {
     "cacheCreationInputTokens": 0,
-    "cacheReadInputTokens": 8320,
-    "contextTokens": 10276,
-    "contextWindow": 128000,
+    "cacheReadInputTokens": 32512,
+    "contextTokens": 33331,
+    "contextWindow": 1000000,
     "contextWindowIsAuthoritative": true,
-    "inputTokens": 1956,
+    "inputTokens": 819,
     "model": "opencode:deepseek/deepseek-reasoner",
-    "percentage": 8
+    "percentage": 3
   }
 }
