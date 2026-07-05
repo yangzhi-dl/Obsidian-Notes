@@ -21,3 +21,11 @@ created: 2026-07-05
   - `wiki/` — 知识层目录（索引/热缓存/日志/来源/概念/实体/综合）
   - `skills/wiki/SKILL.md` — 技能定义
 - 已有笔记等待首次整理：关于Obsidian.md、双向链接、20260705笔记
+
+### 配置完善
+- Git 版本管理初始化 + .gitignore
+- 安装 Dataview 插件（v0.5.70） + 注册到 community-plugins.json
+- 配置图片附件路径为 `raw/assets/`
+- 创建 `raw/Web Clipper 配置指南.md`
+- 更新 wiki/index.md 加入 Dataview 动态查询
+- 更新 AGENTS.md 强调 YAML frontmatter 规范（Dataview 兼容）

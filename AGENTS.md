@@ -71,6 +71,11 @@ tags: [标签1, 标签2]
 source: [[原始文件路径]]    # 来源页需填写
 related: [[相关页面1]]
 ---
+
+> ⚠️ **重要**：YAML frontmatter 必须完整且格式正确，因为 Dataview 插件会用它动态生成索引表格。
+> - `tags` 必须是数组格式 `[tag1, tag2]`
+> - `type` 必须是规定的类型之一
+> - `created` / `updated` 使用 `YYYY-MM-DD` 格式
 ```
 
 ---
