@@ -1,6 +1,44 @@
 {
-  "version": 1,
-  "lastUpdated": "2026-07-05",
+  "schemaVersion": 1,
+  "vaultName": "ObNotes",
+  "architecture": "domain-first",
+  "language": "zh-CN",
+  "domains": [
+    "工具",
+    "技术",
+    "学习",
+    "投资",
+    "视频创作",
+    "写作表达",
+    "通用"
+  ],
+  "statusFlow": [
+    "inbox",
+    "raw",
+    "seed",
+    "reviewed",
+    "evergreen",
+    "deprecated"
+  ],
+  "paths": {
+    "inbox": "inbox",
+    "diary": "diary",
+    "raw": "raw",
+    "wiki": "wiki",
+    "projects": "projects",
+    "outputs": "outputs",
+    "templates": "templates",
+    "archive": "archive",
+    "logs": ".raw/logs"
+  },
+  "rules": {
+    "defaultAiWikiStatus": "seed",
+    "preserveRawSources": true,
+    "onePrimaryDomainPerNote": true,
+    "preferUpdateOverDuplicate": true,
+    "requireSourceForFacts": true,
+    "allowDestructiveOperations": false
+  },
   "ingestedFiles": [
     {
       "path": "raw/Web Clipper 配置指南.md",
@@ -13,24 +51,85 @@
       "status": "ingested",
       "addedAt": "2026-07-05",
       "ingestedAt": "2026-07-05"
-    }
-  ],
-  "pendingFiles": [
-    {
-      "path": "raw/文章/",
-      "status": "pending",
-      "addedAt": "2026-07-05"
     },
     {
-      "path": "raw/随记/",
-      "status": "partial",
-      "addedAt": "2026-07-05"
-    },
-    {
-      "path": "raw/论文/",
-      "status": "pending",
-      "addedAt": "2026-07-05"
+      "path": "raw/文章/architecture_full.md",
+      "status": "ingested",
+      "addedAt": "2026-07-05",
+      "ingestedAt": "2026-07-05"
     }
   ],
-  "skippedFiles": []
+  "migratedFiles": [
+    {
+      "from": "wiki/来源/来源-Web Clipper 配置指南.md",
+      "to": "wiki/工具/来源/来源-Web Clipper 配置指南.md",
+      "migratedAt": "2026-07-30"
+    },
+    {
+      "from": "wiki/来源/来源-代码阅读与学习方法论.md",
+      "to": "wiki/学习/来源/来源-代码阅读与学习方法论.md",
+      "migratedAt": "2026-07-30"
+    },
+    {
+      "from": "wiki/来源/来源-architecture_full.md",
+      "to": "wiki/技术/来源/来源-architecture_full.md",
+      "migratedAt": "2026-07-30"
+    },
+    {
+      "from": "wiki/概念/（6个工具概念）",
+      "to": "wiki/工具/概念/",
+      "migratedAt": "2026-07-30"
+    },
+    {
+      "from": "wiki/概念/（5个学习概念）",
+      "to": "wiki/学习/概念/",
+      "migratedAt": "2026-07-30"
+    },
+    {
+      "from": "wiki/概念/（5个技术概念）",
+      "to": "wiki/技术/概念/",
+      "migratedAt": "2026-07-30"
+    },
+    {
+      "from": "wiki/实体/Obsidian.md",
+      "to": "wiki/工具/实体/Obsidian.md",
+      "migratedAt": "2026-07-30"
+    },
+    {
+      "from": "wiki/实体/Obsidian Web Clipper.md",
+      "to": "wiki/工具/实体/Obsidian Web Clipper.md",
+      "migratedAt": "2026-07-30"
+    }
+  ],
+  "cleanups": [
+    {
+      "date": "2026-08-03",
+      "action": "deleted_old_duplicate_wiki_files",
+      "description": "删除旧 wiki/概念/、wiki/实体/、wiki/来源/、wiki/综合/ 目录下的重复文件（已迁移到领域目录）",
+      "deletedFiles": [
+        "wiki/概念/双向链接.md",
+        "wiki/概念/本地优先.md",
+        "wiki/概念/原子笔记.md",
+        "wiki/概念/图谱视图.md",
+        "wiki/概念/MOC.md",
+        "wiki/概念/个人知识管理.md",
+        "wiki/实体/Obsidian.md",
+        "wiki/实体/Obsidian Web Clipper.md",
+        "wiki/来源/来源-Web Clipper 配置指南.md",
+        "wiki/来源/来源-代码阅读与学习方法论.md",
+        "wiki/概念/代码阅读方法论.md",
+        "wiki/概念/按需阅读.md",
+        "wiki/概念/提问的艺术.md",
+        "wiki/概念/费曼学习法.md",
+        "wiki/概念/问题雷达.md"
+      ],
+      "removedDirectories": [
+        "wiki/概念/",
+        "wiki/实体/",
+        "wiki/来源/",
+        "wiki/综合/"
+      ]
+    }
+  ],
+  "lastUpdated": "2026-08-03"
 }
